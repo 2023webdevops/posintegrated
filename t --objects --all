@@ -1,0 +1,70 @@
+[33mcommit cc151f04ab4819e2f45cd130f0081f34b0693b78[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: 2023Devops <global.wp.dev@gmail.com>
+Date:   Thu Apr 2 23:02:07 2026 +0530
+
+    02-04-25v4
+
+ app/page.tsx | 2 [32m+[m[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit 4f57de44889b9a4f088ee4f0c6d96f54b9ab79eb[m
+Author: 2023Devops <global.wp.dev@gmail.com>
+Date:   Thu Apr 2 22:38:56 2026 +0530
+
+    02-04-25v4
+
+ .next.zip   | Bin [31m1656758147[m -> [32m0[m bytes
+ out.zip     | Bin [31m36340835[m -> [32m0[m bytes
+ package.zip | Bin [31m1691976880[m -> [32m0[m bytes
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit b94445ca7e941ff9eea415afa5c58641f52436c7[m
+Author: 2023Devops <global.wp.dev@gmail.com>
+Date:   Thu Apr 2 22:15:26 2026 +0530
+
+    02-04-25v3
+
+ public/hero.mp4 | Bin [31m7770144[m -> [32m0[m bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit 4ec6794c2f8fdb3c830cf5b1c0ae77df01c1b5b9[m
+Author: 2023Devops <global.wp.dev@gmail.com>
+Date:   Thu Apr 2 21:47:54 2026 +0530
+
+    02-04-25v2
+
+ app/components/header-v2.tsx | 49 [32m++++++++++++++++++++++++++++++++++[m[31m----------[m
+ app/components/hero-2.tsx    | 10 [32m+++++++++[m
+ 2 files changed, 48 insertions(+), 11 deletions(-)
+
+[33mcommit 95f5e7b20926d11cfc94d5d7a26c0d7d24f856b4[m
+Author: 2023Devops <global.wp.dev@gmail.com>
+Date:   Thu Apr 2 21:14:25 2026 +0530
+
+    02-04-25
+
+ .next.zip                        | Bin [31m0[m -> [32m1656758147[m bytes
+ app/api/contact/route.ts         |  46 [32m+++[m[31m----[m
+ app/components/contact.tsx       |   2 [32m+[m[31m-[m
+ app/components/header-v2.tsx     | 274 [32m+++++++++++++++++++++++++++++++++++++++[m
+ app/components/header.tsx        |  20 [32m+[m[31m--[m
+ app/components/hero-2.tsx        |  48 [32m++++++[m[31m-[m
+ app/components/industries.tsx    |   2 [32m+[m[31m-[m
+ app/components/services.tsx      |  13 [32m+[m[31m-[m
+ app/components/solutions.tsx     |   2 [32m+[m[31m-[m
+ app/components/why-choose-us.tsx |   2 [32m+[m[31m-[m
+ app/components/why-posinteg.tsx  |   3 [32m+[m[31m-[m
+ app/layout.tsx                   |   2 [32m+[m[31m-[m
+ app/modules/contactForm.tsx      | 149 [32m+++++++++++++++++++++[m
+ app/modules/modal.tsx            |  48 [32m+++++++[m
+ app/modules/service-card.tsx     |  33 [32m++++[m[31m-[m
+ app/modules/servicesForm.tsx     | 175 [32m+++++++++++++++++++++++++[m
+ app/page.tsx                     |   2 [32m+[m
+ next.config.ts                   |   4 [32m+[m[31m-[m
+ out.zip                          | Bin [31m0[m -> [32m36340835[m bytes
+ package-lock.json                |  76 [32m++++++++++[m[31m-[m
+ package.json                     |   4 [32m+[m[31m-[m
+ package.zip                      | Bin [31m0[m -> [32m1691976880[m bytes
+ public/45056-441212901.mp4       | Bin [31m0[m -> [32m7080619[m bytes
+ public/hero.mp4                  | Bin [31m0[m -> [32m7770144[m bytes
+ 24 files changed, 844 insertions(+), 61 deletions(-)
