@@ -38,7 +38,7 @@ export default function ServiceCard({ title, description, image, index, subtitle
                 className="absolute top-0 left-0 text-primary text-left lg:max-w-[70%] z-10 p-6"
             >
                 <div className="font-sans [font-variation-settings:'wdth'_75] mb-2 text-white text-md font-[500] uppercase tracking-wider">0{index} {subtitle}</div>
-                <h3 className="text-4xl font-[850] mb-2 text-white [font-variation-settings:'wdth'_100]">{title}</h3>
+                <h3 className="text-3xl md:text-4xl font-[850] mb-2 text-white [font-variation-settings:'wdth'_100]">{title}</h3>
             </motion.div>
             
             <div
@@ -70,7 +70,7 @@ export default function ServiceCard({ title, description, image, index, subtitle
                     hover: { opacity: "1" },
                     }}
                     transition={{ duration: 0.4, delay: 0.1 }}
-                    className="text-white duration-300 transition-opacity text-lg">
+                    className="text-white duration-300 transition-opacity text-lg [@media(hover:none)]:!opacity-100">
                         {description}                    
                 </motion.p>
                 <motion.button 

@@ -1,5 +1,5 @@
 "use client"
-
+import Image from "next/image";
 import { Link } from "lucide-react"
 import type { Variants } from "motion/react"
 import { stagger } from "motion/react"
@@ -14,11 +14,27 @@ export default function Variants() {
     return (
         <>
         
-        <motion.div variants={mainVariants} animate={isOpen ? "open" : "closed"}>
-            <div>
+        <motion.div 
+            className="bg-black/10 backdrop-blur-lg"
+            variants={mainVariants} animate={isOpen ? "open" : "closed"}>
+            <div className="">
                 <MenuToggle toggle={() => setIsOpen(!isOpen)}  />
             </div>
-            
+            <div className="absolute w-full">
+                
+                <a 
+                    className=""
+                    href="/">
+                    <Image
+                        src="/logo.png"
+                        alt="POS Integrated Logo"
+                        width={237}
+                        height={60}
+                        loading="eager"
+                        className="block mx-auto mt-2.5"
+                    />
+                </a>
+            </div>
             <div style={container}>
                 <motion.nav
                     initial={false}
@@ -38,7 +54,7 @@ export default function Variants() {
 }
 const mainVariants = {
     open: {
-        width: "300px",
+        width: "100%",
         height: "100%",
         opacity: 1,
         position: "fixed",
@@ -51,8 +67,8 @@ const mainVariants = {
 
     },
     closed: {
-        width: "150px",
-        height: "150px",
+        width: "100%",
+        height: "80px",
         position: "fixed",
         left: 0,
         top: 0,

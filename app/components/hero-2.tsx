@@ -29,7 +29,7 @@ export default function Hero2() {
         <>
         <section 
             ref={scrollRef}
-            className="bg-black py-16 h-[100vh] relative pt-50 overflow-hidden">
+            className="bg-black py-20 h-[100vh] relative overflow-hidden flex items-center justify-center">
             <motion.div
                 initial={{ scale: 1.9, opacity: 0 }}
                 whileInView={{ scale: 1.5, opacity: 1 }}
@@ -64,16 +64,6 @@ export default function Hero2() {
                 viewport={{ once: true, root: scrollRef }} 
                 style={{filter: blurFilter}}
                 className="max-w-4xl mx-auto px-4 text-center z-10 relative">
-                <a href="/">
-                    <Image
-                        src="/logo.png"
-                        alt="POS Integrated Logo"
-                        width={300}
-                        height={76}
-                        loading="eager"
-                        className="block mx-auto mb-10"
-                    />
-                </a>
                 <h1 className="text-4xl md:text-7xl lg:text-8xl font-sans font-[900] mb-4 text-white [font-variation-settings:'wdth'_75] uppercase text-shadow-lg">Complete Business Technology Solutions</h1>
                 <p className="text-md leading-relaxed text-white font-sans [font-variation-settings:'wdth'_105] max-w-2xl mx-auto mb-8">From Point of Sale systems and credit card processing to CCTV security, digital signage, and website development — POS Integrated is your single-source technology partner for retail, restaurant, grocery, and beyond.</p>
                 <div className="flex gap-4 justify-center">

@@ -14,7 +14,7 @@ export default function Solutions() {
             id="posSystems"
             >
             
-            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="container mx-auto px-2">
                 <div className="flex flex-col gap-12">
                     <div className="">
                         <div className="font-sans [font-variation-settings:'wdth'_105] font-[850] text-black">
@@ -27,14 +27,14 @@ export default function Solutions() {
                             We are certified partners for three of the most powerful and proven POS platforms available — each purpose-built for specific business environments.
                         </p>
                     </div>
-                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+                    <div className="grid grid-cols-1 lg:grid-cols-3 gap-3">
                         <div className="basis-1/2 bg-white/90 border-bs-2 border-primary backdrop-blur-lg p-6 text-left">
                             <h3 className="font-sans text-4xl [font-variation-settings:'wdth'_95] font-[900] mb-2 text-black uppercase">RMH POS</h3>
-                            <div className="font-sans [font-variation-settings:'wdth'_105] font-[550] text-primary mb-4">
+                            <div className="font-sans [font-variation-settings:'wdth'_85] font-[550] text-lg text-primary mb-4">
                                 Retail Management Hero
                             </div>
-                            <p className="font-sans text-black font-[340] text-base/7 tracking-wide mb-4">RMH (Retail Management Hero) is a powerful, feature-rich point of sale platform built for single and multi-location retail operations. As a direct successor to Microsoft Retail Management System (RMS), RMH delivers enterprise-grade inventory management, customer tracking, and reporting in a scalable package trusted by thousands of retailers.</p>
-                            <ul className="list-style-box font-[340] font-sans text-black text-base/6 tracking-wide">
+                            
+                            <ul className="list-style-box font-[540] font-sans text-black text-base/6 tracking-wide">
                                 <li>Deep inventory management with purchase orders and receiving</li>
                                 <li>Customer loyalty programs and gift card management</li>
                                 <li>Multi-store and headquarters management capabilities</li>
@@ -45,11 +45,11 @@ export default function Solutions() {
                         </div>
                         <div className="basis-1/2 bg-white/90 border-bs-2 border-primary backdrop-blur-lg p-6 text-left">
                             <h3 className="font-sans text-4xl [font-variation-settings:'wdth'_95] font-[900] mb-2 text-black uppercase">Aldelo POS</h3>
-                            <div className="font-sans [font-variation-settings:'wdth'_105] font-[550] text-primary mb-4">
+                            <div className="font-sans [font-variation-settings:'wdth'_85] font-[550] text-lg text-primary mb-4">
                                 Cloud · Mobile · AI-Powered Restaurant POS
                             </div>
-                            <p className="font-sans text-black font-[340] text-base/7 tracking-wide mb-4">Aldelo is a leading restaurant-focused POS platform combining cloud flexibility, mobile ordering, and AI-driven features. It's built for the fast pace of food service — from table-service restaurants and bars to quick-service counters and pizza shops. Aldelo Express offers a fully cloud-native experience accessible on iPads and Android devices.</p>
-                            <ul className="list-style-box font-[340] font-sans text-black text-base/6 tracking-wide">
+                            
+                            <ul className="list-style-box font-[540] font-sans text-black text-base/6 tracking-wide">
                                 <li>Cloud-based platform — access data from anywhere, anytime</li>
                                 <li>Mobile POS on iPad and Android for tableside ordering</li>
                                 <li>Online ordering, delivery, and QR code menu integration</li>
@@ -60,11 +60,11 @@ export default function Solutions() {
                         </div>
                         <div className="basis-1/2 bg-white/90 border-bs-2 border-primary backdrop-blur-lg p-6 text-left">
                             <h3 className="font-sans text-4xl [font-variation-settings:'wdth'_95] font-[900] mb-2 text-black uppercase">Clover</h3>
-                            <div className="font-sans [font-variation-settings:'wdth'_105] font-[550] text-primary mb-4">
+                            <div className="font-sans [font-variation-settings:'wdth'_85] font-[550] text-lg text-primary mb-4">
                                 POS Solutions for Food & Beverage and Retail
                             </div>
-                            <p className="font-sans text-black font-[340] text-base/7 tracking-wide mb-4">Clover is one of the most recognized and versatile POS platforms available today. With an elegant hardware ecosystem and a robust app marketplace, Clover adapts to a wide variety of business types. It's especially popular in food & beverage environments, quick-service restaurants, and retail shops that need a clean, intuitive system with integrated payments.</p>
-                            <ul className="list-style-box font-[340] font-sans text-black text-base/6 tracking-wide">
+                            
+                            <ul className="list-style-box font-[540] font-sans text-black text-base/6 tracking-wide">
                                 <li>Sleek, modern hardware: Station, Mini, Flex, and Go options</li>
                                 <li>Integrated payment processing built into the ecosystem</li>
                                 <li>Extensive app marketplace for custom functionality</li>
